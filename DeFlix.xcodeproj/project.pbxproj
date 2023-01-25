@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C61D861029814857003CBF3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61D860F29814857003CBF3C /* AppDelegate.swift */; };
+		C61D861229814857003CBF3C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61D861129814857003CBF3C /* SceneDelegate.swift */; };
+		C61D861429814857003CBF3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61D861329814857003CBF3C /* ViewController.swift */; };
+		C61D861729814857003CBF3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61D861529814857003CBF3C /* Main.storyboard */; };
+		C61D861929814858003CBF3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C61D861829814858003CBF3C /* Assets.xcassets */; };
+		C61D861C29814858003CBF3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C61D861A29814858003CBF3C /* LaunchScreen.storyboard */; };
+		C61D862729814859003CBF3C /* DeFlixTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61D862629814859003CBF3C /* DeFlixTests.swift */; };
+		C61D863129814859003CBF3C /* DeFlixUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61D863029814859003CBF3C /* DeFlixUITests.swift */; };
+		C61D863329814859003CBF3C /* DeFlixUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C61D863229814859003CBF3C /* DeFlixUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C61D862329814859003CBF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61D860429814857003CBF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61D860B29814857003CBF3C;
+			remoteInfo = DeFlix;
+		};
+		C61D862D29814859003CBF3C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C61D860429814857003CBF3C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C61D860B29814857003CBF3C;
+			remoteInfo = DeFlix;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C61D860C29814857003CBF3C /* DeFlix.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeFlix.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61D860F29814857003CBF3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C61D861129814857003CBF3C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C61D861329814857003CBF3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C61D861629814857003CBF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C61D861829814858003CBF3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C61D861B29814858003CBF3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C61D861D29814858003CBF3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C61D862229814859003CBF3C /* DeFlixTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeFlixTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61D862629814859003CBF3C /* DeFlixTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeFlixTests.swift; sourceTree = "<group>"; };
+		C61D862C29814859003CBF3C /* DeFlixUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeFlixUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C61D863029814859003CBF3C /* DeFlixUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeFlixUITests.swift; sourceTree = "<group>"; };
+		C61D863229814859003CBF3C /* DeFlixUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeFlixUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C61D860929814857003CBF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61D861F29814859003CBF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61D862929814859003CBF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C61D860329814857003CBF3C = {
+			isa = PBXGroup;
+			children = (
+				C61D860E29814857003CBF3C /* DeFlix */,
+				C61D862529814859003CBF3C /* DeFlixTests */,
+				C61D862F29814859003CBF3C /* DeFlixUITests */,
+				C61D860D29814857003CBF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C61D860D29814857003CBF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C61D860C29814857003CBF3C /* DeFlix.app */,
+				C61D862229814859003CBF3C /* DeFlixTests.xctest */,
+				C61D862C29814859003CBF3C /* DeFlixUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C61D860E29814857003CBF3C /* DeFlix */ = {
+			isa = PBXGroup;
+			children = (
+				C61D860F29814857003CBF3C /* AppDelegate.swift */,
+				C61D861129814857003CBF3C /* SceneDelegate.swift */,
+				C61D861329814857003CBF3C /* ViewController.swift */,
+				C61D861529814857003CBF3C /* Main.storyboard */,
+				C61D861829814858003CBF3C /* Assets.xcassets */,
+				C61D861A29814858003CBF3C /* LaunchScreen.storyboard */,
+				C61D861D29814858003CBF3C /* Info.plist */,
+			);
+			path = DeFlix;
+			sourceTree = "<group>";
+		};
+		C61D862529814859003CBF3C /* DeFlixTests */ = {
+			isa = PBXGroup;
+			children = (
+				C61D862629814859003CBF3C /* DeFlixTests.swift */,
+			);
+			path = DeFlixTests;
+			sourceTree = "<group>";
+		};
+		C61D862F29814859003CBF3C /* DeFlixUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C61D863029814859003CBF3C /* DeFlixUITests.swift */,
+				C61D863229814859003CBF3C /* DeFlixUITestsLaunchTests.swift */,
+			);
+			path = DeFlixUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C61D860B29814857003CBF3C /* DeFlix */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61D863629814859003CBF3C /* Build configuration list for PBXNativeTarget "DeFlix" */;
+			buildPhases = (
+				C61D860829814857003CBF3C /* Sources */,
+				C61D860929814857003CBF3C /* Frameworks */,
+				C61D860A29814857003CBF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeFlix;
+			productName = DeFlix;
+			productReference = C61D860C29814857003CBF3C /* DeFlix.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C61D862129814859003CBF3C /* DeFlixTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61D863929814859003CBF3C /* Build configuration list for PBXNativeTarget "DeFlixTests" */;
+			buildPhases = (
+				C61D861E29814859003CBF3C /* Sources */,
+				C61D861F29814859003CBF3C /* Frameworks */,
+				C61D862029814859003CBF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61D862429814859003CBF3C /* PBXTargetDependency */,
+			);
+			name = DeFlixTests;
+			productName = DeFlixTests;
+			productReference = C61D862229814859003CBF3C /* DeFlixTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C61D862B29814859003CBF3C /* DeFlixUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C61D863C29814859003CBF3C /* Build configuration list for PBXNativeTarget "DeFlixUITests" */;
+			buildPhases = (
+				C61D862829814859003CBF3C /* Sources */,
+				C61D862929814859003CBF3C /* Frameworks */,
+				C61D862A29814859003CBF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C61D862E29814859003CBF3C /* PBXTargetDependency */,
+			);
+			name = DeFlixUITests;
+			productName = DeFlixUITests;
+			productReference = C61D862C29814859003CBF3C /* DeFlixUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C61D860429814857003CBF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					C61D860B29814857003CBF3C = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					C61D862129814859003CBF3C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C61D860B29814857003CBF3C;
+					};
+					C61D862B29814859003CBF3C = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = C61D860B29814857003CBF3C;
+					};
+				};
+			};
+			buildConfigurationList = C61D860729814857003CBF3C /* Build configuration list for PBXProject "DeFlix" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C61D860329814857003CBF3C;
+			productRefGroup = C61D860D29814857003CBF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C61D860B29814857003CBF3C /* DeFlix */,
+				C61D862129814859003CBF3C /* DeFlixTests */,
+				C61D862B29814859003CBF3C /* DeFlixUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C61D860A29814857003CBF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61D861C29814858003CBF3C /* LaunchScreen.storyboard in Resources */,
+				C61D861929814858003CBF3C /* Assets.xcassets in Resources */,
+				C61D861729814857003CBF3C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61D862029814859003CBF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61D862A29814859003CBF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C61D860829814857003CBF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61D861429814857003CBF3C /* ViewController.swift in Sources */,
+				C61D861029814857003CBF3C /* AppDelegate.swift in Sources */,
+				C61D861229814857003CBF3C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61D861E29814859003CBF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61D862729814859003CBF3C /* DeFlixTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C61D862829814859003CBF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C61D863329814859003CBF3C /* DeFlixUITestsLaunchTests.swift in Sources */,
+				C61D863129814859003CBF3C /* DeFlixUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C61D862429814859003CBF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61D860B29814857003CBF3C /* DeFlix */;
+			targetProxy = C61D862329814859003CBF3C /* PBXContainerItemProxy */;
+		};
+		C61D862E29814859003CBF3C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C61D860B29814857003CBF3C /* DeFlix */;
+			targetProxy = C61D862D29814859003CBF3C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C61D861529814857003CBF3C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61D861629814857003CBF3C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C61D861A29814858003CBF3C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C61D861B29814858003CBF3C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C61D863429814859003CBF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C61D863529814859003CBF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C61D863729814859003CBF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42F2NQF94Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeFlix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aufar.DeFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C61D863829814859003CBF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42F2NQF94Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DeFlix/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aufar.DeFlix;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		C61D863A29814859003CBF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42F2NQF94Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aufar.DeFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeFlix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeFlix";
+			};
+			name = Debug;
+		};
+		C61D863B29814859003CBF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42F2NQF94Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aufar.DeFlixTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeFlix.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DeFlix";
+			};
+			name = Release;
+		};
+		C61D863D29814859003CBF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42F2NQF94Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aufar.DeFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeFlix;
+			};
+			name = Debug;
+		};
+		C61D863E29814859003CBF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 42F2NQF94Z;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Aufar.DeFlixUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeFlix;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C61D860729814857003CBF3C /* Build configuration list for PBXProject "DeFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61D863429814859003CBF3C /* Debug */,
+				C61D863529814859003CBF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61D863629814859003CBF3C /* Build configuration list for PBXNativeTarget "DeFlix" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61D863729814859003CBF3C /* Debug */,
+				C61D863829814859003CBF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61D863929814859003CBF3C /* Build configuration list for PBXNativeTarget "DeFlixTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61D863A29814859003CBF3C /* Debug */,
+				C61D863B29814859003CBF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C61D863C29814859003CBF3C /* Build configuration list for PBXNativeTarget "DeFlixUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C61D863D29814859003CBF3C /* Debug */,
+				C61D863E29814859003CBF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C61D860429814857003CBF3C /* Project object */;
+}
