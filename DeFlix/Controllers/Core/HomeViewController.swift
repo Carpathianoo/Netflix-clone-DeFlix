@@ -42,7 +42,7 @@ class HomeViewController : UIViewController {
         let headerView = HeroHeaderUIView(frame: CGRect(x: 0, y: 0, width: view.bounds.width, height: 500))
         homeFeedTable.tableHeaderView = headerView
         
-//        fetchData()
+//      fetchData()
     }
     
     private func configureNavbar() {
@@ -86,9 +86,13 @@ class HomeViewController : UIViewController {
 //            //
 //        }
         
-        APICaller.shared.getTopRatedMovies { _ in
-            //
-        }
+//        APICaller.shared.getTopRatedMovies { _ in
+//            //
+//        }
+        
+//        APICaller.shared.getMovies(with: "Avenger") { result in
+//            //
+//        }
     }
 
 extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
@@ -106,6 +110,8 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
         guard let cell = tableView.dequeueReusableCell(withIdentifier: CollectionViewTableViewCell.identifier, for: indexPath) as? CollectionViewTableViewCell else {
             return UITableViewCell()
         }
+        
+        cell.delegate = self
         
         switch indexPath.section {
             case Sections.TrendingMovies.rawValue:
@@ -200,4 +206,15 @@ extension HomeViewController : UITableViewDelegate, UITableViewDataSource {
     }
 }
 
+extension HomeViewController : CollectionViewTableViewCellDelegate {
+    
+    func CollectionViewTableViewCellDidTapCell(_ cell: CollectionViewTableViewCell, viewModel: titlePreviewViewModel) {
+        
+        DispatchQueue.main.async { [weak self] in
+            let vc = TitlePreviewViewController()
+            vc.configure(with: viewModel)
+            self?.navigationController?.pushViewController(vc, animated: true)
 
+        }
+    }
+}
