@@ -10,6 +10,7 @@
 		C60169B429891AD7005498F7 /* YoutubeSearchResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60169B329891AD7005498F7 /* YoutubeSearchResponse.swift */; };
 		C60169B6298972D6005498F7 /* TitlePreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60169B5298972D6005498F7 /* TitlePreviewViewController.swift */; };
 		C60169B8298976CE005498F7 /* TitlePreviewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C60169B7298976CE005498F7 /* TitlePreviewViewModel.swift */; };
+		C6150C65298E037000E229DD /* DeFlixModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C6150C63298E037000E229DD /* DeFlixModel.xcdatamodeld */; };
 		C616ABF82985383500B0D954 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = C616ABF72985383500B0D954 /* APICaller.swift */; };
 		C616ABFA2985481100B0D954 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = C616ABF92985481100B0D954 /* Title.swift */; };
 		C616ABFE2985522700B0D954 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = C616ABFD2985522700B0D954 /* Extensions.swift */; };
@@ -33,6 +34,7 @@
 		C6F0230729882246002ED9CD /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F0230629882246002ED9CD /* SearchResultsViewController.swift */; };
 		C6FAF454298294B00001C427 /* CollectionViewTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAF453298294B00001C427 /* CollectionViewTableViewCell.swift */; };
 		C6FAF45629829DD00001C427 /* HeroHeaderUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FAF45529829DD00001C427 /* HeroHeaderUIView.swift */; };
+		C6FB5EFC298E064D0061B151 /* DataPersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6FB5EFB298E064D0061B151 /* DataPersistenceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,7 @@
 		C60169B329891AD7005498F7 /* YoutubeSearchResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeSearchResponse.swift; sourceTree = "<group>"; };
 		C60169B5298972D6005498F7 /* TitlePreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewController.swift; sourceTree = "<group>"; };
 		C60169B7298976CE005498F7 /* TitlePreviewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewViewModel.swift; sourceTree = "<group>"; };
+		C6150C64298E037000E229DD /* DeFlixModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DeFlixModel.xcdatamodel; sourceTree = "<group>"; };
 		C616ABF72985383500B0D954 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		C616ABF92985481100B0D954 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
 		C616ABFD2985522700B0D954 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
@@ -81,6 +84,7 @@
 		C6F0230629882246002ED9CD /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		C6FAF453298294B00001C427 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
 		C6FAF45529829DD00001C427 /* HeroHeaderUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeroHeaderUIView.swift; sourceTree = "<group>"; };
+		C6FB5EFB298E064D0061B151 /* DataPersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataPersistenceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +149,7 @@
 				C61D861829814858003CBF3C /* Assets.xcassets */,
 				C61D861A29814858003CBF3C /* LaunchScreen.storyboard */,
 				C61D861D29814858003CBF3C /* Info.plist */,
+				C6150C63298E037000E229DD /* DeFlixModel.xcdatamodeld */,
 			);
 			path = DeFlix;
 			sourceTree = "<group>";
@@ -236,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				C616ABF72985383500B0D954 /* APICaller.swift */,
+				C6FB5EFB298E064D0061B151 /* DataPersistenceManager.swift */,
 			);
 			path = Managers;
 			sourceTree = "<group>";
@@ -380,12 +386,14 @@
 				C6F023032987AD76002ED9CD /* TitleTableViewCell.swift in Sources */,
 				C61D864529814BF5003CBF3C /* SearchViewController.swift in Sources */,
 				C6EDC8C42986624C0080F00B /* TitleCollectionViewCell.swift in Sources */,
+				C6FB5EFC298E064D0061B151 /* DataPersistenceManager.swift in Sources */,
 				C61D861429814857003CBF3C /* MainTabBarViewController.swift in Sources */,
 				C6FAF454298294B00001C427 /* CollectionViewTableViewCell.swift in Sources */,
 				C616ABF82985383500B0D954 /* APICaller.swift in Sources */,
 				C6FAF45629829DD00001C427 /* HeroHeaderUIView.swift in Sources */,
 				C61D864729814C43003CBF3C /* DownloadsViewController.swift in Sources */,
 				C60169B8298976CE005498F7 /* TitlePreviewViewModel.swift in Sources */,
+				C6150C65298E037000E229DD /* DeFlixModel.xcdatamodeld in Sources */,
 				C61D861029814857003CBF3C /* AppDelegate.swift in Sources */,
 				C616ABFE2985522700B0D954 /* Extensions.swift in Sources */,
 				C61D861229814857003CBF3C /* SceneDelegate.swift in Sources */,
@@ -753,6 +761,19 @@
 			productName = SDWebImageMapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C6150C63298E037000E229DD /* DeFlixModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C6150C64298E037000E229DD /* DeFlixModel.xcdatamodel */,
+			);
+			currentVersion = C6150C64298E037000E229DD /* DeFlixModel.xcdatamodel */;
+			path = DeFlixModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = C61D860429814857003CBF3C /* Project object */;
 }
