@@ -8,7 +8,7 @@
 import UIKit
 
 protocol CollectionViewTableViewCellDelegate : AnyObject {
-    func CollectionViewTableViewCellDidTapCell(_ cell: CollectionViewTableViewCell, viewModel: titlePreviewViewModel)
+    func CollectionViewTableViewCellDidTapCell(_ cell: CollectionViewTableViewCell, viewModel: TitlePreviewViewModel)
 }
 
 class CollectionViewTableViewCell: UITableViewCell {
@@ -99,7 +99,7 @@ extension CollectionViewTableViewCell : UICollectionViewDelegate, UICollectionVi
                 guard let strongSelf = self else {
                     return
                 }
-                let viewModel = titlePreviewViewModel(title: titleName, youtubeView: videoElement, titleOverview: titleOverview)
+                let viewModel = TitlePreviewViewModel(title: titleName, youtubeView: videoElement, titleOverview: titleOverview)
                 self?.delegate?.CollectionViewTableViewCellDidTapCell(strongSelf, viewModel: viewModel)
                 
             case .failure(let error):
@@ -108,4 +108,16 @@ extension CollectionViewTableViewCell : UICollectionViewDelegate, UICollectionVi
         }
     }
     
+    func collectionView(_ collectionView: UICollectionView, contextMenuConfigurationForItemsAt indexPaths: [IndexPath], point: CGPoint) -> UIContextMenuConfiguration? {
+        
+        let config = UIContextMenuConfiguration(
+            identifier: nil, previewProvider: nil) { _ in
+                let downloadAction = UIAction(title: "Download", subtitle: nil, image: nil, identifier: nil, discoverabilityTitle: nil, state: .off) { _ in
+                    
+                    print("Download Tapped")
+                }
+                return UIMenu(title: "", image: nil, identifier: nil, options: .displayInline, children: [downloadAction])
+            }
+        return config
+    }
 }
